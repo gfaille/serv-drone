@@ -1,7 +1,39 @@
+/* taille + couleur + type de la police */
 .btn-header button {
   font-size: 20px;
   font-family: 'Jost', sans-serif;
   color: #a6cbf2;
-  text-align: left;
   text-decoration: none;
+}
+
+/* taille + position de l'image en arriere plan et type de police */
+section {
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: 98.125% 41.25%;
+  font-family: 'Jost', sans-serif;
+}
+
+/* taille de la police */
+h2 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 128px;
+}
+h3 {
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 40px;
+}
+h5 {
+  font-size: 26px;
+  line-height: 31px;
+}
+p {
+  font-size: 18px;
+  line-height: 28px;
+}
+button {
+  font-size: 20px;
+  line-height: 29px;
 }
