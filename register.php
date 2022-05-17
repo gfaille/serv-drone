@@ -127,13 +127,13 @@ if (isset($_POST['login'])) {
           </a>
         </div>
 
-        <div class="col-2 col-lg-4 col-xxl-5 btn-header">
+        <div class="col-2 col-lg-2 col-xl-4 col-xxl-4 btn-header">
           <a href="FAQ.php">
             <button type="button" class="btn btn-link">FAQ</button>
           </a>
         </div>
 
-        <div class="col-auto col-xxl-1" style="text-align: center;">
+        <div class="col-auto col-xxl-auto no-gutters" style="text-align: center;">
 
           <form action="" method="POST">
             <button class="btn" type="submit" name="profile"><img src="img/profile.svg" alt=""> </button>
@@ -141,7 +141,7 @@ if (isset($_POST['login'])) {
 
         </div>
 
-        <div class="col-auto col-xxl-1" style="text-align: center;">
+        <div class="col-auto col-xxl-auto no-gutters" style="text-align: center;">
           <a href="#">
             <img src="img/panier.svg" alt="">
           </a>
@@ -167,8 +167,8 @@ if (isset($_POST['login'])) {
 
             <div class="col-12">
 
-              <div class="col-6 offset-3 formulaire">
-                <div class="col-8 container">
+              <div class="col-6 col-md-5 offset-3 offset-md-1 formulaire">
+                <div class="col-8 col-md-10 container">
 
                 <!-- sous titre -->
                 <h3 id="h-titre">Crée un compte</h3>
@@ -199,7 +199,7 @@ if (isset($_POST['login'])) {
                     </div>
 
                     <div class="row btn-size">
-                      <input type="submit" name="register" value="s'inscrire">
+                      <input type="submit" class="btn btn-w" name="register" value="s'inscrire">
                     </div>
 
                   </form>
@@ -239,7 +239,7 @@ if (isset($_POST['login'])) {
                     </div>
 
                   <div class="row btn-size">
-                      <input type="submit" name="login" value="se connecter">
+                      <input type="submit" class="btn btn-w" name="login" value="se connecter">
                   </div>
 
                   </form>

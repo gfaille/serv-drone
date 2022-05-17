@@ -68,7 +68,7 @@ if (isset($_POST['profile'])) {
           </a>
         </div>
 
-        <div class="col-2 col-lg-4 col-xxl-5 btn-header">
+        <div class="col-2 col-lg-4 col-xxl-4 btn-header">
           <a href="FAQ.php">
             <button type="button" class="btn btn-link">FAQ</button>
           </a>
