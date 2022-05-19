@@ -13,6 +13,7 @@
 
   </head>
   <body>
+
     <!-- saut de 80px. -->
     <div class="row" style="height: 80px; margin-right: calc(0 * var(--bs-gutter-x));"></div>
 
@@ -25,49 +26,57 @@
         </div>
 
         <div class="col-auto btn-header">
-          <a href="index.html">
+          <a href="index.php">
             <button type="button" class="btn btn-link">Accueil</button>
           </a>
         </div>
 
         <div class="col-auto btn-header">
-          <a href="drone.html">
+          <a href="drone.php">
             <button type="button" class="btn btn-link">Nos Drônes</button>
           </a>
         </div>
 
         <div class="col-auto  btn-header">
-          <a href="actualité.html">
+          <a href="actualité.php">
             <button type="button" class="btn btn-link">Actus</button>
           </a>
         </div>
 
         <div class="col-auto btn-header">
-          <a href="historique.html">
+          <a href="historique.php">
             <button type="button" class="btn btn-link">Histoire</button>
           </a>
         </div>
 
         <div class="col-auto  btn-header">
-          <a href="contact.html">
+          <a href="contact.php">
             <button type="button" class="btn btn-link">Contact</button>
           </a>
         </div>
 
-        <div class="col-2 col-lg-2 col-xxl-5 btn-header">
-          <a href="FAQ.html">
+        <div class="col-2 col-lg-4 col-xxl-4 btn-header">
+          <a href="FAQ.php">
             <button type="button" class="btn btn-link">FAQ</button>
           </a>
         </div>
 
-        <div class="col col-xxl-1" style="text-align: center;">
-          <a href="profile.html">
-            <img src="img/profile.svg" alt="">
+        <div class="col-auto col-xxl-1" style="text-align: center;">
+
+          <form action="" method="POST">
+            <button class="btn" type="submit" name="profile"><img src="img/profile.svg" alt=""> </button>
+          </form>
+
+        </div>
+
+        <div class="col-auto col-xxl-1" style="text-align: center;">
+          <a href="#">
             <img src="img/panier.svg" alt="">
           </a>
         </div>
 
       </div>
+    </header>
     </header>
 
     <!-- saut de 24px entre le header et la section -->

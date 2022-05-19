@@ -83,7 +83,7 @@ if (isset($_POST['profile'])) {
         </div>
 
         <div class="col-auto col-xxl-1" style="text-align: center;">
-          <a href="#">
+          <a href="panier.php">
             <img src="img/panier.svg" alt="">
           </a>
         </div>

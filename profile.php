@@ -26,6 +26,7 @@ if (isset($_POST['logout'])) {
   <body>
 
     <body>
+
       <!-- saut de 80px. -->
       <div class="row" style="height: 80px; margin-right: calc(0 * var(--bs-gutter-x));"></div>
 
@@ -67,7 +68,7 @@ if (isset($_POST['logout'])) {
             </a>
           </div>
 
-          <div class="col-2 col-lg-4 col-xxl-5 btn-header">
+          <div class="col-2 col-lg-4 col-xxl-4 btn-header">
             <a href="FAQ.php">
               <button type="button" class="btn btn-link">FAQ</button>
             </a>
