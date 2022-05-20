@@ -91,9 +91,11 @@
             <h4>Class 1</h4>
             <p id="P1">Ses fonctions vont vous surprendre.Son prix Aussi</p>
             <p id="P1">Découvrez ce que la gamme Class 1 peut faire pour vous dès aujourd’hui.</p>
-            <a href="#">
-              <button type="button" class="btn btn-w" name="button">J'achète</button>
-            </a>
+            <form action="panier.php" method="post">
+              <a href="panier.php?action=ajout&amp;l=libelleProduit&amp;q=quantiteProduit&amp;p=prixProduit">
+                <button type="submit" class="btn btn-w" name="action">J'achète</button>
+              </a>
+            </form>
           </div>
           <div class="col-7 align-self-center">
             <img src="img/drone-chien.png" class="img" alt="">
@@ -169,7 +171,7 @@
 
             <div class="row justify-content-center btn-pos">
               <div class="col-auto">
-                  <button type="button" class="btn btn-primary" name="button">ajouter au panier</button>
+                  <button type="submit" class="btn btn-primary" name="button">ajouter au panier</button>
               </div>
 
               <div class="col-auto pos">

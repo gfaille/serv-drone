@@ -111,16 +111,19 @@ function supprPanier(){
 }
 
 $erreur = false;
+var_dump($erreur);
 
 $action = (isset($_POST['action']) ? $_POST['action']:null);
+var_dump($action);
+var_dump($_POST['action']);
 if ($action !== null) {
-  if (!iin_array($action, array('ajout', 'suppression', 'refresh'))) {
+  if (!in_array($action, array('ajout', 'suppression', 'refresh'))) {
     $erreur = true;
-
+    var_dump($erreur);
     $l = (isset($_POST['l']) ? $_POST['l']:null);
     $p = (isset($_POST['p']) ? $_POST['p']:null);
     $q = (isset($_POST['q']) ? $_POST['q']:null);
-
+    var_dump($_POST['l'], $_POST['p'], $_POST['q']);
     $l = preg_replace('#\v#', '',$l);
 
     $p = floatval($p);
